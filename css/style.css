@@ -1,4 +1,81 @@
 /* Nav Bar CSS */
+nav{
+    min-width: 790px;
+}
+.container-fluid{
+    width:100%;
+    background-color: white;
+}
+.container-fluid>.navbar-header>a{
+    color: #9B59B6;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+}
+.container-fluid>.navbar-header>a:hover{
+    color: #7D3C98;
+}
+.nav-pills>li.active.navbtn>a{
+    background-color: #633974;
+}
+.nav-pills>li.active.navbtn>a:hover{
+    background-color: #D7BDE2;
+}
+.nav-pills>li.navbtn>a{
+    color: purple;
+}
+.nav-pills>li.navbtn>a:hover{
+    background-color: #D7BDE2;
+}
+.nav-pills>li.home>a, .nav-pills>li.home>a:focus, .nav-pills>li.home>a:hover{
+    background-color: #633974;
+}
+a{
+    color: purple;
+    font-family: 'Bellefair', serif;
+    font-size: 18px;
+}
+.nav-pills>li>a:hover{
+    background-color: #D7BDE2;
+    color: white;
+}
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    background-color: #D7BDE2;
+    color: white;
+}
+.dropbtn {
+    background-color: white;
+    color: purple;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: purple;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #EBDEF0
+}
 
 
 /* Header CSS */

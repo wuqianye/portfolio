@@ -33,3 +33,8 @@
 
 
 // Add your click handler below to update your like counters when the like buttons are clicked. 
+
+
+$("#projectsbtn").click(function(){
+        $("#cart").hide();
+    });
