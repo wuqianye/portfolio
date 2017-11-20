@@ -79,6 +79,17 @@ a{
 
 
 /* Header CSS */
+header{
+    text-align: center;
+    background-image: url("https://image.freepik.com/free-psd/white-wood-texture-background-design_1022-75.jpg");
+    height: 400px;
+    background-size: cover;
+}
+img{
+    margin: 40px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 20px;
+}
 
 
 
@@ -87,7 +98,15 @@ a{
 
 
 /* About Section CSS */
+#about{
+    text-align: center;
+}
 
+
+/* Contact Section CSS */
+#contact{
+    text-align: center;
+}
 
 
 /* Portfolio Item CSS */
