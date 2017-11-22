@@ -1,80 +1,41 @@
+.body{
+    background-color: #E8E8E8;
+}
 /* Nav Bar CSS */
 nav{
-    min-width: 790px;
+    min-width: 700px;
+    background-color: #404040;
 }
 .container-fluid{
-    width:100%;
-    background-color: white;
+    background-color: #404040;
 }
 .container-fluid>.navbar-header>a{
-    color: #9B59B6;
-    font-family: 'Pacifico', cursive;
+    color: 	#DCDCDC;
+    font-family: 'Megrim', cursive;
     font-size: 24px;
 }
 .container-fluid>.navbar-header>a:hover{
-    color: #7D3C98;
+    color: #B0B0B0;
 }
 .nav-pills>li.active.navbtn>a{
-    background-color: #633974;
+    background-color: #C0C0C0;
 }
 .nav-pills>li.active.navbtn>a:hover{
-    background-color: #D7BDE2;
+    background-color: #D3D3D3;
 }
 .nav-pills>li.navbtn>a{
-    color: purple;
+    color: #FFFFFF;
+    font-family: 'Iceland', cursive;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 4px;
 }
 .nav-pills>li.navbtn>a:hover{
-    background-color: #D7BDE2;
-}
-.nav-pills>li.home>a, .nav-pills>li.home>a:focus, .nav-pills>li.home>a:hover{
-    background-color: #633974;
-}
-a{
-    color: purple;
-    font-family: 'Bellefair', serif;
-    font-size: 18px;
+    background-color: #D3D3D3;
 }
 .nav-pills>li>a:hover{
     background-color: #D7BDE2;
     color: white;
-}
-
-
-.dropdown{
-    position: relative;
-    display: inline-block;
-}
-.dropdown:hover .dropdown-content{
-    display: block;
-}
-.dropdown:hover .dropbtn{
-    background-color: #D7BDE2;
-    color: white;
-}
-.dropbtn {
-    background-color: white;
-    color: purple;
-    padding: 16px;
-    font-size: 18px;
-    border: none;
-    cursor: pointer;
-}
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-.dropdown-content a{
-    color: purple;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown-content a:hover{
-    background-color: #EBDEF0
 }
 
 
@@ -85,12 +46,16 @@ header{
     height: 400px;
     background-size: cover;
 }
-img{
-    margin: 40px 0px 0px 0px;
-    border: 7px solid white;
+#img{
+    margin: 80px 0px 0px 0px;
+    border: 7px solid #F5F5F5;
     border-radius: 20px;
 }
-
+#name{
+    color: #404040;
+    font-family: 'Iceland', cursive;
+    font-size: 40px;
+}
 
 
 /* Section CSS */
