@@ -1,21 +1,38 @@
+html {
+    height: 100%;
+}
 .body{
     background-color: #E8E8E8;
+    font-family: 'Iceland', cursive;
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    min-width: 500px;
 }
 /* Nav Bar CSS */
 nav{
-    min-width: 700px;
     background-color: #404040;
+    min-width: 500px;
 }
-.container-fluid{
+#navbar{
     background-color: #404040;
 }
 .container-fluid>.navbar-header>a{
-    color: 	#DCDCDC;
+    color: #DCDCDC;
     font-family: 'Megrim', cursive;
     font-size: 24px;
 }
 .container-fluid>.navbar-header>a:hover{
     color: #B0B0B0;
+}
+#navlogo{
+    color: #DCDCDC;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-right: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 .nav-pills>li.active.navbtn>a{
     background-color: #C0C0C0;
@@ -40,16 +57,20 @@ nav{
 
 
 /* Header CSS */
-header{
+#indexj{
     text-align: center;
     background-image: url("https://image.freepik.com/free-psd/white-wood-texture-background-design_1022-75.jpg");
-    height: 400px;
     background-size: cover;
 }
+#indexj2{
+    background-color: rgba(255,255,255,0.4);
+    margin-top: 60px;
+    max-width: 80%;
+}
 #img{
-    margin: 80px 0px 0px 0px;
     border: 7px solid #F5F5F5;
     border-radius: 20px;
+    margin-top: 40px;
 }
 #name{
     color: #404040;
@@ -59,18 +80,57 @@ header{
 
 
 /* Section CSS */
-
+#index{
+    text-align: center;
+}
+#indexgrid{
+    padding: 0px;
+}
+.projects{
+    margin-bottom: 40px;
+}
+h4.projectnames>a{
+    color: black;
+    font-size: 25px;
+}
+h4.projectnames>a:hover{
+    color: #686868;
+}
+.descriptions{
+    font-family: 'Aldrich', sans-serif;
+    font-size: 14px;
+}
 
 
 /* About Section CSS */
 #about{
     text-align: center;
 }
+#aboutj{
+    background-image: url("https://addons.opera.com/media/CACHE/images/themes/25/35625/1.0-rev1/images/1fef761b-fe17-42ab-a287-9a9034d8b9f1/61591a383056e56fcc53750114f07321.jpg");
+    background-size: cover;
+}
+#aboutj2{
+    background-color: rgba(255,255,255,.4);
+    margin-top: 60px;
+    max-width: 80%;
+}
+#aboutme{
+    font-size: 60px;
+}
 
 
 /* Contact Section CSS */
 #contact{
     text-align: center;
+}
+#contactme{
+    font-size: 60px;
+    margin-top: 50px;
+}
+#end{
+    font-size: 100px;
+    margin-top: 60px;
 }
 
 
@@ -79,9 +139,46 @@ header{
 
 
 /* Footer CSS */
-
+footer{
+    text-align: center;
+    font-family: 'Iceland', cursive;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
 
 
 /* Button CSS */
 
 
+
+@media all and (max-width: 992px){
+    #buttons{
+        align-items: center;
+    }
+    #indexj2{
+        margin-top: 100px;
+    }
+    #aboutj2{
+        margin-top: 100px;
+    }
+    #contactme{
+        margin-top: 100px;
+    }
+    #end{
+        margin-top: 30px;
+    }
+}
+@media all and (max-width: 767px){
+    #indexgrid{
+        max-width: 60%;
+    }
+    .projects{
+        min-width: 300px;
+    }
+    #contactme{
+        margin-top: 110px;
+    }
+}

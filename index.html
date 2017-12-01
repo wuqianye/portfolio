@@ -12,66 +12,94 @@
 
 <!DOCTYPE html>
 <html>
-    <head>   
-        <title>My proftolio</title>
+    <head>
+        <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmDWfi_dSnwk23qgYKOMOLdWlYmy3upi6lYQNFGa9BgrVOtrT5Pg">
+        <title>Wuqian Ye</title>
+        
         <link rel="stylesheet" href="css/style.css" type="text/css"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         
         <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Iceland" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
     </head>
     <body class="body" id="index">
         <!-- Nav Bar -->
         <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="row container-fluid">
-                <div class="col-md-2 col-xs-4 navbar-header">
+            <div class="row container-fluid" id="navbar">
+                <div class="col-md-2 navbar-header">
                     <a class="navbar-brand" href="index.html">Wuqian Ye</a>
                 </div>
-                <div>
-                    <ul class="col-md-10 col-xs-12 nav nav-pills">
+                <div class="col-md-10 col-xs-12" id="buttons">
+                    <ul class="nav nav-pills">
                         <li class="active navbtn"><a href="index.html">Home</a></li>
                         <li class="navbtn"><a href="about.html">About</a></li>
                         <li class="navbtn"><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
+                <p id="navlogo">ScriptEd >_</p>
             </div>
         </nav>
         
         <!-- Header -->
-        <header class="jumbotron">
-            <img id="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmDWfi_dSnwk23qgYKOMOLdWlYmy3upi6lYQNFGa9BgrVOtrT5Pg">
-            <h1 id="name">Wuqian Ye</h1>
+        <header class="jumbotron" id="indexj">
+            <div  class="container" id="indexj2">
+                <img id="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmDWfi_dSnwk23qgYKOMOLdWlYmy3upi6lYQNFGa9BgrVOtrT5Pg">
+                <h1 id="name">Wuqian Ye</h1>
+            </div>
         </header>
         
         <!-- Portfolio Grid Section -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-xs-6">
-                    <div class="thumbnail">
-                        <img class="project" src="images/lia's_dog_shop.png">
-                        <hr>
-                        <h4><a href="https://preview.c9users.io/natsumi3613/lia-dog-shop/index.html">Lia's Dog Shop</a></h4>
+        <div class="container" id="indexgrid">
+            <div class="col-md-4 col-sm-6 col-xs-12 projects">
+                <div class="thumbnail">
+                    <img class="images" src="images/lia's_dog_shop.png">
+                    <hr>
+                    <div class="info">
+                        <h4 class="projectnames"><a href="https://cdn.dribbble.com/users/1044993/screenshots/3106624/question-bear_dribbble_1x.png">Lia's Dog Shop</a></h4>
+                        <p class="descriptions">
+                            Project completed during the ScriptEd Summer Academy,
+                            where students have the opportunity to learn
+                            professional skills by creating websites for mock
+                            clients.
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 projects">
+                <div class="thumbnail">
+                    <img class="images" src="https://cdn.dribbble.com/users/1044993/screenshots/3106624/question-bear_dribbble_1x.png">
+                    <hr>
+                    <div class="info">
+                        <h4 class="projectnames"><a href="#">Placeholder</a></h4>
+                        <p class="descriptions">
+                            x x x x x x x x x x x x x x x x x x x x x x x x x x
+                            x x x x x x x x x x x x x x
+                        </p>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 projects">
+                <div class="thumbnail">
+                    <img class="images" src="https://cdn.dribbble.com/users/1044993/screenshots/3106624/question-bear_dribbble_1x.png">
+                    <hr>
+                    <div class="info">
+                        <h4 class="projectnames"><a href="#">Placeholder</a></h4>
+                        <p class="descriptions">
+                            x x x x x x x x x x x x x x x x x x x x x x x x x x
+                            x x x x x x x x x x x x x x
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
         
-        <!-- Footer -->
         
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         
-        <!-- Jquery Script -->
-        
-        
-        <!--Bootstrap Javascript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Your Javascript -->
         <script type="text/javascript" src="js/script.js"></script>
     </body>
+    <footer>WYE</footer>
 </html>
