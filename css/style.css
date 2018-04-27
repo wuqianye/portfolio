@@ -67,9 +67,6 @@ nav{
     margin-top: 60px;
     max-width: 80%;
 }
-.thumbnail{
-    height: 400px;
-}
 #img{
     border: 7px solid #F5F5F5;
     border-radius: 20px;
@@ -91,6 +88,9 @@ nav{
 }
 .projects{
     margin-bottom: 40px;
+}
+.thumbnail{
+    height: 400px;
 }
 h4.projectnames>a{
     color: black;
@@ -131,14 +131,10 @@ h4.projectnames>a:hover{
     font-size: 60px;
     margin-top: 50px;
 }
-#end{
+#endlogo{
     font-size: 100px;
     margin-top: 60px;
 }
-
-
-/* Portfolio Item CSS */
-
 
 
 /* Footer CSS */
@@ -153,14 +149,7 @@ footer{
 }
 
 
-/* Button CSS */
-
-
-
 @media all and (max-width: 992px){
-    #buttons{
-        align-items: center;
-    }
     #indexj2{
         margin-top: 100px;
     }
@@ -170,7 +159,8 @@ footer{
     #contactme{
         margin-top: 100px;
     }
-    #end{
+    #endlogo
+    {
         margin-top: 30px;
     }
 }
